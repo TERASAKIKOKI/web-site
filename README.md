@@ -10,4 +10,15 @@ https://www.youtube.com/playlist?list=PL8m4YIIYgvCx8NQiDlu-iVLGf_WsDRccW
 ## Bootstrap
 vertion：
 
+## ツール
+
+### fonts
+
+- google font  
+- Font Playground (extention) Webサイトのフォントを変更して、試し見ができる
+
+
+
+
+
   

@@ -3,12 +3,14 @@
 
                   Font family:   Roboto Condensed
 
+                  Greenish Blue: #34c6d3 (Buttons, Icons, Lines & Bckgrounds)
+
 
 
 
 ==================================================== */
 
-bady {
+body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
