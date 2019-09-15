@@ -17,6 +17,14 @@ vertion：
 - google font  
 - Font Playground (extention) Webサイトのフォントを変更して、試し見ができる
 
+### 配色
+Adobe Color  
+色の組み合わせ、配色を考えるさいに手助けをしてくれるサイト、写真や画像をアップロードするだけで５つの色を抽出してくれて、作成したカラーやテーマはアドビのツールでしようすることが可能。
+
+参考URL：https://color.adobe.com/ja/create
+
+
+
 
 
 
