@@ -25,6 +25,10 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+h3 {
+  text-transform: uppercase;
+}
+
 /* ================================================
                   HOME
 ==================================================== */
@@ -40,6 +44,25 @@ body {
   background-position: center;
 }
 
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+  /* text-align: center; */
+}
+
+#home-heading h3 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  margin: 20px 0 20px 0;
+  text-transform: uppercase;
+}
 
 
 
