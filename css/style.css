@@ -200,6 +200,16 @@ h3 {
                   ABOUT
 ==================================================== */
 
+#about-bg-diagonal {
+  width: 60%;
+  height: 700px;
+  float: right;
+  background-image: url(../img/bg-about.jpg);
+  border-left: 200px solid #fff;
+  border-top: 700px solid transparent;
+  /* ボーダーが交わるところが斜めになので、そこを利用している */
+}
+
 #about-content-box {
   float: left;
   height: 100%;
