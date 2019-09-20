@@ -242,9 +242,26 @@ h3 {
   margin-bottom: 30px;
 }
 
+/* ================================================
+                  WoRK
+==================================================== */
 
+.row .no-gutters [class*=col-]{
+  padding-left: 0; 
+  padding-right: 0;
+}  /* 上手く表示されない */
 
+.img-wrapper　{
+  overflow: hidden;
+}
 
+.img-wrapper img {
+  transition: transform .5s ease;
+}
+
+.img-wrapper img:hover {
+  transform: scale(1.5)
+}/* 画像が飛び出る */
 
 
 
