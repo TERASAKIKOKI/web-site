@@ -260,7 +260,8 @@ h3 {
 }
 
 .img-wrapper img:hover {
-  transform: scale(1.5)
+  transform: scale(1.5);
+  cursor: zoom-in;
 }/* 画像が飛び出る */
 
 
