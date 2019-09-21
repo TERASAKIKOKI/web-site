@@ -15,8 +15,8 @@ $(function () {
     delegate: 'a', // child items selector, by clicking on it popup will open
     type: 'image',
     // other options
-    gallery:{
-      enabled:true
+    gallery: {
+      enabled: true
     }
   });
 });
@@ -24,11 +24,12 @@ $(function () {
 /*=======================================
                   TEAM
 =======================================*/
-$(function(){
+$(function () {
   $("#team-members").owlCarousel({
     item: 3,
     autoplay: true,
     smartSpeed: 700,
     loop: true,
+    autoplayHoverPause: true,
   });
 });

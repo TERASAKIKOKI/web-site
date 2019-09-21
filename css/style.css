@@ -246,12 +246,14 @@ h3 {
                   WoRK
 ==================================================== */
 
-.row .no-gutters [class*=col-]{
-  padding-left: 0; 
+.row .no-gutters [class*=col-] {
+  padding-left: 0;
   padding-right: 0;
-}  /* 上手く表示されない */
+}
 
-.img-wrapper　{
+/* 上手く表示されない */
+
+.img-wrapper {
   overflow: hidden;
 }
 
@@ -262,8 +264,64 @@ h3 {
 .img-wrapper img:hover {
   transform: scale(1.5);
   cursor: zoom-in;
-}/* 画像が飛び出る */
+}
 
+/* 画像が飛び出る */
+
+/* ================================================
+                  TEAM
+==================================================== */
+.team-member {
+  margin: 0 15px;
+}
+
+.team-member-info {
+  padding: 10px 0 30px 0;
+}
+
+h4.team-member-name {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-top: 2px;
+}
+
+h4.team-member-designation {
+  color: #34c6d3;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+/* ================================================
+                  SOSIAL
+==================================================== */
+.social-list {
+  padding-left: 0;
+}
+
+.social-list li {
+  list-style: none;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  font-size: 17px;
+}
+
+.icon-gray i {
+  color: #64707b;
+}
+
+.social-icon i:hover {
+  color: #34c6d3;
+}
 
 
 
