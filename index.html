@@ -35,6 +35,10 @@
   <!-- magnific popup -->
   <link rel="stylesheet" href="css/magnificpopup/magnific-popup.css">
 
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+
   <!-- style CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -290,12 +294,13 @@
         <div class="content-title-underline"></div>
       </div>
     </div>
-    
+
     <div class="container">
       <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
         <div class="col-md-12">
 
-          <div id="team-members">
+          <div class="owl-carousel owl-theme" id="team-members">
+
             <div class="team-member">
               <img src="img/team/team-1.jpg" class="img-responsive" alt="team-member">
               <div class="team-member-info text-center">
@@ -308,8 +313,7 @@
                 </ul>
               </div>
             </div>
-          </div>
-          <div id="team-members">
+            <div id="team-members">
               <div class="team-member">
                 <img src="img/team/team-2.jpg" class="img-responsive" alt="team-member">
                 <div class="team-member-info text-center">
@@ -324,47 +328,48 @@
               </div>
             </div>
             <div id="team-members">
-                <div class="team-member">
-                  <img src="img/team/team-3.jpg" class="img-responsive" alt="team-member">
-                  <div class="team-member-info text-center">
-                    <h4 class="team-member-name">Daniel Watrows</h4>
-                    <h4 class="team-member-designation">CEO</h4>
-                    <ul class="social-list">
-                      <li><a href="#" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
-                  </div>
+              <div class="team-member">
+                <img src="img/team/team-3.jpg" class="img-responsive" alt="team-member">
+                <div class="team-member-info text-center">
+                  <h4 class="team-member-name">Daniel Watrows</h4>
+                  <h4 class="team-member-designation">CEO</h4>
+                  <ul class="social-list">
+                    <li><a href="#" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
                 </div>
               </div>
-              <div id="team-members">
-                  <div class="team-member">
-                    <img src="img/team/team-4.jpg" class="img-responsive" alt="team-member">
-                    <div class="team-member-info text-center">
-                      <h4 class="team-member-name">Daniel Watrows</h4>
-                      <h4 class="team-member-designation">CEO</h4>
-                      <ul class="social-list">
-                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
+            </div>
+            <div id="team-members">
+              <div class="team-member">
+                <img src="img/team/team-4.jpg" class="img-responsive" alt="team-member">
+                <div class="team-member-info text-center">
+                  <h4 class="team-member-name">Daniel Watrows</h4>
+                  <h4 class="team-member-designation">CEO</h4>
+                  <ul class="social-list">
+                    <li><a href="#" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
                 </div>
-                <div id="team-members">
-                    <div class="team-member">
-                      <img src="img/team/team-5.jpg" class="img-responsive" alt="team-member">
-                      <div class="team-member-info text-center">
-                        <h4 class="team-member-name">Daniel Watrows</h4>
-                        <h4 class="team-member-designation">CEO</h4>
-                        <ul class="social-list">
-                          <li><a href="#" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-                          <li><a href="#" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-                          <li><a href="#" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div id="team-members">
+              <div class="team-member">
+                <img src="img/team/team-5.jpg" class="img-responsive" alt="team-member">
+                <div class="team-member-info text-center">
+                  <h4 class="team-member-name">Daniel Watrows</h4>
+                  <h4 class="team-member-designation">CEO</h4>
+                  <ul class="social-list">
+                    <li><a href="#" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
@@ -393,6 +398,9 @@
 
   <!-- magnific popup -->
   <script src="js/magnificpopup/jquery.magnific-popup.min.js"></script>
+
+  <!-- owl carousel -->
+  <script src="js/owlcarousel/owl.carousel.min.js"></script>
 
   <!-- custom JS -->
   <script src="js/custom.js"></script>
