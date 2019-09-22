@@ -26,7 +26,7 @@ $(function () {
 =======================================*/
 $(function () {
   $("#team-members").owlCarousel({
-    item: 3,
+    items: 3,
     autoplay: true,
     smartSpeed: 700,
     loop: true,
@@ -40,14 +40,14 @@ $(function () {
 =======================================*/
 $(function () {
   $("#customers-testimonials").owlCarousel({
-    item: 1,
+    items: 1,
     autoplay: true,
     smartSpeed: 700,
     loop: true,
     autoplayHoverPause: true,
   });
 });
-// アイテム数が反映されない…。
+
 
 /*=======================================
               STATS
@@ -64,7 +64,7 @@ $(function () {
 =======================================*/
 $(function () {
   $("#clients-list").owlCarousel({
-    item: 6,
+    items: 6,
     autoplay: true,
     smartSpeed: 700,
     loop: true,
