@@ -123,6 +123,16 @@ h3 {
   color: #fff;
 }
 
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+  padding: 3px 15px;
+  border-radius: 0;
+  display: none;
+}
+
 /* ================================================
                   ANIMATION (Generic)
 ==================================================== */

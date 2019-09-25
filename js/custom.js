@@ -77,21 +77,37 @@ $(function () {
 =======================================*/
 // Show/Hide transparent black nabigation
 
-$(function(){
-  $(window).scroll(function(){
-    if($(this).scrollTop() < 50 ) {
-        //hide nav
+$(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() < 50) {
+      //hide nav
       $("nav").removeClass("vesco-top-nav");
+      $("#back-to-top").fadeOut();
     } else {
       //show nav
       $("nav").addClass("vesco-top-nav");
-    }
+      $("#back-to-top").fadeIn();
+    };
   });
 });
 
 //smooth scrolling
-$(function(){
-  $("a.smooth-scroll").click(function(event){
+// $(function(){
+//   $(a[href^="#"]).on('click',function(){
+//     var Target = $(this.hash);
+//     var TargetOffset = $(Target).offset.top - 64;
+//     var Time = 700;
+//     $('html body').animate({
+//       scrollTop: TargetOffset
+//     }, Time);
+//     return false;
+//   });
+// });
+
+
+
+$(function () {
+  $('a.smooth-scroll').click(function (event) {
     event.preventDefault();
     var section = $(this).attr("href"); //get/return id like #about #team
     $('html, body').animate({
