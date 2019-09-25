@@ -71,4 +71,20 @@ $(function () {
     autoplayHoverPause: true,
   });
 });
-// itemが反映されない……
+
+/*=======================================
+              navigation
+=======================================*/
+// Show/Hide transparent black nabigation
+
+$(function(){
+  $(window).scroll(function(){
+    if($(this).scrollTop() < 50 ) {
+        //hide nav
+      $("nav").removeClass("vesco-top-nav");
+    } else {
+      //show nav
+      $("nav").addClass("vesco-top-nav");
+    }
+  })
+});
