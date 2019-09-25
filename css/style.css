@@ -631,7 +631,22 @@ address strong,
   color: #34c6d3;
 }
 
+.navbar-toggle {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #fff;
+}
 
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-collapse {
+  max-height: none  !important;
+}
+
+.vesco-top-nav ul.navbar-nav > li.active > a {
+  color: #34c6d3;
+}
 
 
 
