@@ -599,6 +599,49 @@ address strong,
 }
 
 
+/* ================================================
+                navbar
+==================================================== */
+.navbar {
+  padding: 20px, 0;
+}
+
+.vesco-top-nav {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.vesco-nav-wrapper {
+  padding: 0 85px;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.navbar-nav > li > a {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700px;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+  background: none;
+  color: #34c6d3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* bootstrap demo */
