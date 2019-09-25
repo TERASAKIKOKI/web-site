@@ -1,0 +1,45 @@
+/* ================================================
+                  Bootstrap 3 Media Queries
+==================================================== */
+
+/* Large Dvices */
+@media (min-width: 1200px) {
+  #home-heading h3 {
+    color: blue;
+  }
+}
+
+/* medium devices ()*/
+@media (min-width: 992px) and (max-width: 1199px ) {
+  #home-heading h3 {
+    color: yellow;
+  }
+}
+
+/* small devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  #home-heading h3 {
+    color: green;
+  }
+}
+
+/* extra small devices */
+@media (max-width: 767px) {
+  #home-heading h3 {
+    color: red;
+  }
+}
+
+/* extra small devices */
+@media (max-width: 480px) {
+  #home-heading h3 {
+    color: pink;
+  }
+}
+
+/* extra small devices */
+@media (max-width: 320px) {
+  #home-heading h3 {
+    color: red;
+  }
+}
