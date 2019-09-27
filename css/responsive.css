@@ -141,6 +141,7 @@
 
 /* extra small devices */
 @media (max-width: 320px) {
+
   /* services */
   .service-item-icon {
     width: 58px;
@@ -161,6 +162,7 @@
   .testimonial img {
     max-width: 6px 50px;
   }
+
   .testimonial blockquote {
     padding: 6px 30px;
   }
@@ -175,5 +177,5 @@
 
   .testimonial blockquote p {
     font-size: 16px;
-  
-}
+
+  }
