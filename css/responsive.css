@@ -9,7 +9,19 @@
 
 /* medium devices ()*/
 @media (min-width: 992px) and (max-width: 1199px ) {
-  /* OK */
+  /* mobile menu */
+  .navbar {
+    background-color: rgba(0,0,0, .7);
+    padding: 0;
+  } 
+
+  .navbar-nav {
+    float: left;
+  }
+
+  .vesco-nav-wrapper {
+    padding: 0;
+  }
   
 }
 
