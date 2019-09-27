@@ -8,12 +8,13 @@
 }
 
 /* medium devices ()*/
-@media (min-width: 992px) and (max-width: 1199px ) {
+@media (min-width: 992px) and (max-width: 1199px) {
+
   /* mobile menu */
   .navbar {
-    background-color: rgba(0,0,0, .7);
+    background-color: rgba(0, 0, 0, .7);
     padding: 0;
-  } 
+  }
 
   .navbar-nav {
     float: left;
@@ -22,15 +23,15 @@
   .vesco-nav-wrapper {
     padding: 0;
   }
-  
+
 }
 
 /* small devices */
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar {
-    background-color: rgba(0,0,0, .7);
+    background-color: rgba(0, 0, 0, .7);
     padding: 0;
-  } 
+  }
 
   .navbar-nav {
     float: left;
@@ -52,24 +53,127 @@
     width: 100%;
     height: 350;
   }
-  
+
+  /* stats */
+  .stats-item {
+    padding: 20px 0;
+  }
+
+  /* footer */
+  #footer-copyrights {
+    text-align: center;
+  }
 }
 
 /* extra small devices */
 @media (max-width: 767px) {
-  
-  
+
+  /* mobile menu */
+  .navbar {
+    background-color: rgba(0, 0, 0, .7);
+    padding: 0;
+  }
+
+  .navbar-nav {
+    float: left;
+  }
+
+  .vesco-nav-wrapper {
+    padding: 0;
+  }
+
+  /* home headding  */
+  #home-heading h3 {
+    font-size: 24px;
+  }
+
+  .btn-general {
+    padding: 6px 22px 6px 22px;
+    font-size: 14px;
+  }
+
+  /* About- remove diagonal border */
+  #about-bg-diagonal {
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    height: 350px;
+  }
+
+  /* work */
+  .img-wrapper img {
+    min-width: 100%;
+  }
+
+  /* testimonils */
+  .testimonial blockquote {
+    padding: 6px 50px;
+  }
+
+  .testimonial blockquote:before {
+    left: 10px;
+  }
+
+  .testimonial blockquote:after {
+    right: 10px;
+  }
+
+  .testimonial blockquote p {
+    font-size: 16px;
+  }
+
+  /* stats */
+  .stats-item {
+    padding: 20px 0;
+  }
+
+  /* footer */
+  #footer-copyrights {
+    text-align: center;
+  }
 }
 
 /* extra small devices */
 @media (max-width: 480px) {
-  
-  
+  /* OK */
+
 }
 
 /* extra small devices */
 @media (max-width: 320px) {
-  
+  /* services */
+  .service-item-icon {
+    width: 58px;
+    height: 58px;
+    padding: 7px;
+  }
+
+  /* abot */
+  .service-item-title h3 {
+    font-size: 17px;
+  }
+
+  #about-content-box {
+    margin-top: 40px;
+  }
+
+  /* testimonial */
+  .testimonial img {
+    max-width: 6px 50px;
+  }
+  .testimonial blockquote {
+    padding: 6px 30px;
+  }
+
+  .testimonial blockquote:before {
+    left: 7px;
+  }
+
+  .testimonial blockquote:after {
+    right: 7px;
+  }
+
+  .testimonial blockquote p {
+    font-size: 16px;
   
 }
-
