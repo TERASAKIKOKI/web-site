@@ -8,11 +8,6 @@
                   Blue Bayoux: #64707b (Paragraphs)
                   white: #fff (text with black backgrounds)
                   Black: #000 ()
-              
-
-
-
-
 ==================================================== */
 
 
@@ -652,7 +647,7 @@ address strong,
 }
 
 .navbar-collapse {
-  max-height: none  !important;
+  max-height: none !important;
 }
 
 .vesco-top-nav ul.navbar-nav > li.active > a {
