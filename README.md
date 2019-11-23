@@ -1,5 +1,7 @@
 # web-site
 
+
+
 ## 概要
 HTML/CSS/Jquery/bootstrapを使ったレスポンシブWebサイトの練習  
 
